@@ -11,16 +11,13 @@ import stamp from './images/stamp.png';
 
 export const projects = [
   {
-    title: 'Graphic Design 2: Visual Systems',
+    id: '1',
+    title: 'Graphic Design 2: Visual Systems - Spring 2023',
     image: magicPotluck,
-    text: `For this brief, we had to design and hold our events. This event can be anything
-    you want it to be but it has to be a 'specific, unique, and disputable purpose'
-    (Priya Parker, The Art of Gathering). We had to then create a visual system for
-    our event which could be a color palette, a specific typography on theme with
-    your event, and other components like an invitation, decorations for the event,
-    etc`,
+    text: 'Create an Event',
   },
   {
+    id: '2',
     title: 'Graphic Design 2: Visual Systems',
     image: risoPoster,
     text: `For this brief, we designed a flexible visual system for a fictional city or
@@ -37,6 +34,7 @@ export const projects = [
     every student's visual system based on their city.`,
   },
   {
+    id: '3',
     title: 'Graphic Design 1: Typography',
     image: typeFace,
     text: `For this project, create your own fonts based on an already existing one of our
@@ -46,6 +44,7 @@ export const projects = [
     start from. Our typeface also had to fit within the alphabet seamlessly`,
   },
   {
+    id: '4',
     title: 'Graphic Design 1: Typography',
     image: fashion,
     text: `We created an anthology that combined articles that we had picked based on our
@@ -54,6 +53,7 @@ export const projects = [
     this anthology, we also had to create a grid that best represented our information.`,
   },
   {
+    id: '5',
     title: 'Graphic Design 1: Typography',
     image: poster,
     text: ` Every year our department has a Bachelor of Fine Arts Show where the seniors
@@ -66,24 +66,28 @@ export const projects = [
     showcased in the show.`,
   },
   {
+    id: '6',
     title: 'Introduction to Web Design',
     image: spotify,
     text: `Project 1: There's already an app for that - redesign an app for a specific purpose.
     My purpose was to create a user friendly spotify for older generations.`,
   },
   {
+    id: '7',
     title: 'Introduction to Web Design',
     image: wiki,
     text: `Project 2: Make it Pop - Revamp an already existing website.
     My task was to modernize Wikipedia for a more professional look.`,
   },
   {
+    id: '8',
     title: 'Introduction to Web Design',
     image: project3,
     text: `Project 3: Design for Good - Create a Website that can help any disadvantaged group.
    `,
   },
   {
+    id: '9',
     title: 'Job: Uconn Nutmeg Publishing Fall 2022',
     image: soccer,
     text: `Student run group that creates yearbooks for the graduating seniors and a magazine
@@ -93,6 +97,7 @@ export const projects = [
    `,
   },
   {
+    id: '10',
     title: 'Class: Graphic Design Process and Thinking Fall 2021',
     image: stamp,
     text: `This project was called typo texture and we had to create a pattern or texture out
