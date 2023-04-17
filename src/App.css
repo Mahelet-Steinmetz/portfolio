@@ -41,3 +41,16 @@
 .project-card:hover .project-card__overlay {
   opacity: 0.9;
 }
+
+.project_thumbnail {
+  height: 200px !important;
+}
+
+.project_image {
+  max-width: 75%;
+}
+
+.project_image-typography {
+  max-width: 50%;
+  height: 300px !important;
+}

@@ -18,59 +18,33 @@ export const projects = [
   },
   {
     id: '2',
-    title: 'Graphic Design 2: Visual Systems',
+    title: 'Graphic Design 2: Visual - Spring 2023',
     image: risoPoster,
-    text: `For this brief, we designed a flexible visual system for a fictional city or
-    “imaginary city” as Marco Polo describes in Italo Calvino's book, Invisible Cities.
-    First, each student chose a random city from Invisible Cities out of a hatful of city
-    names. Then we read the poem about our city and then began identifying words
-    in the poem that characterized our city the best. From those words, I also chose
-    images that corresponded as well as a color palette. My city was the City of
-    Isaura and I decided to focus on its abundance of water as described on page 20
-    of Calvinos, Invisible Cities. We then chose a phrase that best described our city
-    and then used all of these elements to create 2 shapes or components which
-    could be used to create a visual representation, in this case, a poster of our
-    cities. Finally, we used these poster designs to print out a Riso book showcasing
-    every student's visual system based on their city.`,
+    text: `Flexible Visual Systems`,
   },
   {
     id: '3',
-    title: 'Graphic Design 1: Typography',
+    title: 'Graphic Design 1: Typography - Fall 2022',
     image: typeFace,
-    text: `For this project, create your own fonts based on an already existing one of our
-    choosing. I chose Baskerville because I liked the way the stroke changed from
-    thin and thick throughout the letterforms. We created our typeface by using the
-    pen tool in illustrator to trace the letters in the original font so we had a basis to
-    start from. Our typeface also had to fit within the alphabet seamlessly`,
+    text: `Design Your Own Typeface`,
   },
   {
     id: '4',
-    title: 'Graphic Design 1: Typography',
+    title: 'Graphic Design 1: Typography - Fall 2022',
     image: fashion,
-    text: `We created an anthology that combined articles that we had picked based on our
-    chosen topic. I chose to research fashion in different cultures and so the images
-    and text throughout my anthology are from the articles I chose to work with. For
-    this anthology, we also had to create a grid that best represented our information.`,
+    text: `Create an Anthology`,
   },
   {
     id: '5',
-    title: 'Graphic Design 1: Typography',
+    title: 'Graphic Design 1: Typography - Fall 2022',
     image: poster,
-    text: ` Every year our department has a Bachelor of Fine Arts Show where the seniors
-    showcase their year-long study and art. So for this project, we created a specific
-    visual identity that would act as the basic theme for a poster design. The poster
-    had to have the name of the show, the time and place, and then creative aspects
-    that represented your theme or identity. Then we had to create a presentation to
-    present in front of the class and persuade them that our poster identity was the
-    best one. At the end, we voted for our favorite and the winner had their poster
-    showcased in the show.`,
+    text: `Type As Identity`,
   },
   {
     id: '6',
     title: 'Introduction to Web Design',
     image: spotify,
-    text: `Project 1: There's already an app for that - redesign an app for a specific purpose.
-    My purpose was to create a user friendly spotify for older generations.`,
+    text: `There's Already an App For That`,
   },
   {
     id: '7',
