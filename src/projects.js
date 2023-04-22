@@ -1,13 +1,15 @@
-import magicPotluck from './images/magic-potluck.png';
-import risoPoster from './images/Riso_poster.png';
-import typeFace from './images/typeface.png';
-import fashion from './images/fashion.png';
-import poster from './images/poster.png';
-import spotify from './images/spotify.png';
-import project3 from './images/project3.png';
-import wiki from './images/wiki.png';
-import soccer from './images/soccer.png';
-import stamp from './images/stamp.png';
+import {
+  magicPotluck,
+  risoPoster,
+  typeFace,
+  fashion,
+  poster,
+  spotify,
+  project3,
+  wiki,
+  soccer,
+  stamp,
+} from './images';
 
 export const projects = [
   {

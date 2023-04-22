@@ -1,0 +1,44 @@
+.contact {
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.contact__row {
+  width: 100%;
+}
+
+.contact__info {
+  width: 100%;
+  font-size: 20px;
+  color: #051d52;
+}
+
+.contact__form {
+  width: 100%;
+}
+
+.contact__form__label {
+  font-size: 18px;
+  color: #051d52;
+  font-weight: bold;
+}
+
+.contact__form__btn {
+  color: #051d52 !important;
+  background-color: #517089 !important;
+  font-weight: bold !important;
+  font-family: 'Roboto Slab', serif !important;
+  outline: none !important;
+  border: none !important;
+}
+
+.contact__message {
+  margin-top: 10px;
+}
+
+.contact__message-error {
+  color: red;
+  margin-top: 10px;
+}

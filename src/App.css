@@ -1,13 +1,36 @@
 .App {
   text-align: center;
   font-family: 'Roboto Slab', serif;
+  width: 100%;
 }
 
 .nav-bar {
   background-color: rgba(255, 255, 255, 0.8) !important;
 }
 
-.sections {
+.nav-link {
+  color: #051d52 !important;
+  font-size: 20px !important;
+  margin-left: 10px !important;
+}
+
+.nav-link:hover {
+  color: #517089 !important;
+}
+
+.nav-bar__name {
+  font-weight: bold !important;
+  color: #517089 !important;
+  font-size: 24px !important;
+}
+
+.nav-bar__name:hover {
+  color: #051d52 !important;
+}
+
+.nav-bar__container {
+  margin-left: 100px !important;
+  margin-right: 10px !important;
 }
 
 .heading {
@@ -17,8 +40,21 @@
   margin-top: 50px;
 }
 
+.heading h1 {
+  color: #051d52;
+}
+
+.heading h3 {
+  color: #517089;
+}
+
 .heading__name {
   font-size: 4rem;
+}
+
+.project-cards {
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 
 .project-card__image {
@@ -36,14 +72,24 @@
   left: 0px;
   right: 0px;
   padding: 5px;
-  color: #ffffff;
-  background: #444343;
+  color: #051d52;
+  background: #517089;
   text-decoration: none;
   text-align: center;
   -webkit-transition: opacity 500ms;
   -moz-transition: opacity 500ms;
   -o-transition: opacity 500ms;
   transition: opacity 500ms;
+}
+
+.project-card__overlay__title {
+  font-size: 24px !important;
+  font-weight: bold !important;
+}
+
+.project-card__overlay__text {
+  font-size: 20px !important;
+  font-weight: bold !important;
 }
 
 .project-card:hover .project-card__overlay {
@@ -63,11 +109,9 @@
   height: 300px !important;
 }
 
-.about {
-  display: flex;
-  align-items: center;
-}
-
-.contact {
-  display: flex;
+@media only screen and (max-width: 450px) {
+  .nav-bar__container {
+    margin-left: auto !important;
+    margin-right: auto !important;
+  }
 }

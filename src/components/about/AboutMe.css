@@ -1,0 +1,19 @@
+.about-me {
+  display: flex;
+  align-items: center;
+  margin-top: 50px;
+  margin-bottom: 20px;
+}
+
+.about-me__row {
+  display: flex;
+  align-items: center;
+}
+
+.about-me__info {
+  font-size: 20px;
+  padding: 25px;
+  border-radius: 20px;
+  background-color: #517089;
+  color: #051d52;
+}

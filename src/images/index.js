@@ -24,6 +24,10 @@ import soccer from './soccer.png';
 import soccer2 from './soccer2.png';
 import nutmeg from './nutmeg.png';
 import stamp from './stamp.png';
+import magicPotluck from './magic-potluck.png';
+import risoPoster from './Riso_poster.png';
+import fashion from './fashion.png';
+import project3 from './project3.png';
 
 export {
   p1p1,
@@ -52,4 +56,8 @@ export {
   soccer2,
   nutmeg,
   stamp,
+  magicPotluck,
+  risoPoster,
+  fashion,
+  project3,
 };
