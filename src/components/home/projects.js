@@ -9,7 +9,7 @@ import {
   wiki,
   soccer,
   stamp,
-} from './images';
+} from '../../images';
 
 export const projects = [
   {
