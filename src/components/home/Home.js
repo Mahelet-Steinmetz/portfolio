@@ -1,7 +1,6 @@
-import React, { useState, useEffect } from 'react';
+import React from 'react';
 import { motion as m } from 'framer-motion';
 import { Card, Row, Col } from 'react-bootstrap';
-import { Projects } from '../projects/Projects';
 import projects from './projects';
 import './Home.css';
 

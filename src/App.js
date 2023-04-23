@@ -1,5 +1,5 @@
 import './App.css';
-import React, { useEffect, useState } from 'react';
+import React, { useState } from 'react';
 import { Container, Nav, Navbar } from 'react-bootstrap';
 import resume from './pdfs/resume.pdf';
 import { Projects, AboutMe, Contact, Home } from './components';
@@ -21,7 +21,6 @@ function App() {
             Mahelet Steinmetz
           </Nav.Link>
         </LinkContainer>
-
         <Navbar.Toggle aria-controls='basic-navbar-nav' />
         <Navbar.Collapse id='basic-navbar-nav'>
           <Nav className='me-auto'>
@@ -53,31 +52,37 @@ function App() {
   return (
     <div className='App'>
       {nav}
+
       <Container>
-        <Routes>
-          <Route path='/about' element={<AboutMe />} />
-          <Route path='/contact' element={<Contact />} />
-          <Route
-            path='/projects'
-            element={<Home setSection={(e) => handleProject(e)} />}
-          />
-          <Route
-            path='/'
-            element={<Home setSection={(e) => handleProject(e)} />}
-          />
-          <Route path='/project' element={<Projects project={section} />} />
-        </Routes>
-        {/* {section === 'about' ? (
-            <AboutMe />
-          ) : section === 'contact' ? (
-            <Contact />
-          ) : section === 'projects' ? (
-            <AnimatePresence mode={'wait'}>
-              <Home setSection={(e) => setSection(e)} />
-            </AnimatePresence>
-          ) : (
-            <Projects project={section} />
-          )} */}
+        <AnimatePresence mode={'wait'}>
+          <Routes>
+            <Route
+              key={location.pathname}
+              path='/about'
+              element={<AboutMe />}
+            />
+            <Route
+              key={location.pathname}
+              path='/contact'
+              element={<Contact />}
+            />
+            <Route
+              key={location.pathname}
+              path='/projects'
+              element={<Home setSection={(e) => handleProject(e)} />}
+            />
+            <Route
+              key={location.pathname}
+              path='/'
+              element={<Home setSection={(e) => handleProject(e)} />}
+            />
+            <Route
+              key={location.pathname}
+              path='/project'
+              element={<Projects project={section} />}
+            />
+          </Routes>
+        </AnimatePresence>
       </Container>
     </div>
   );

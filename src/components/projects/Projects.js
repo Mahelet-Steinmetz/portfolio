@@ -1,5 +1,5 @@
-import React, { useEffect } from 'react';
-import { Row, Col, Image, Container, Button } from 'react-bootstrap';
+import React from 'react';
+import { Row, Col, Image, Container } from 'react-bootstrap';
 import {
   p1p1,
   p1p2,
@@ -32,7 +32,6 @@ import pdf1 from '../../pdfs/p1b1.pdf';
 import anthology from '../../pdfs/anthology.pdf';
 import presentation from '../../pdfs/presentation.pdf';
 import project3PDF from '../../pdfs/project3PDF.pdf';
-import { AnimatePresence } from 'framer-motion';
 import { motion as m } from 'framer-motion';
 import './Projects.css';
 
@@ -482,36 +481,34 @@ export const Projects = (props) => {
   );
 
   return (
-    <AnimatePresence mode={'wait'}>
-      <m.div
-        className='projects'
-        initial={{ opacity: 0 }}
-        animate={{ opacity: 1 }}
-        transition={{ duration: 1, ease: 'easeOut' }}
-        exit={{ opacity: 0 }}
-      >
-        <Container className='sections'>
-          {project === '1'
-            ? project1
-            : project === '2'
-            ? project2
-            : project === '3'
-            ? project3
-            : project === '4'
-            ? project4
-            : project === '5'
-            ? project5
-            : project === '6'
-            ? project6
-            : project === '7'
-            ? project7
-            : project === '8'
-            ? project8
-            : project === '9'
-            ? project9
-            : project === '10' && project10}
-        </Container>
-      </m.div>
-    </AnimatePresence>
+    <m.div
+      className='projects'
+      initial={{ opacity: 0 }}
+      animate={{ opacity: 1 }}
+      transition={{ duration: 1, ease: 'easeOut' }}
+      exit={{ opacity: 0 }}
+    >
+      <Container className='sections'>
+        {project === '1'
+          ? project1
+          : project === '2'
+          ? project2
+          : project === '3'
+          ? project3
+          : project === '4'
+          ? project4
+          : project === '5'
+          ? project5
+          : project === '6'
+          ? project6
+          : project === '7'
+          ? project7
+          : project === '8'
+          ? project8
+          : project === '9'
+          ? project9
+          : project === '10' && project10}
+      </Container>
+    </m.div>
   );
 };

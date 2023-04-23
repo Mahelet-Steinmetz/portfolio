@@ -28,6 +28,7 @@ import magicPotluck from './magic-potluck.png';
 import risoPoster from './Riso_poster.png';
 import fashion from './fashion.png';
 import project3 from './project3.png';
+import portrait from './portrait.jpg';
 
 export {
   p1p1,
@@ -60,4 +61,5 @@ export {
   risoPoster,
   fashion,
   project3,
+  portrait,
 };
