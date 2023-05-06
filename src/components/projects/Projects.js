@@ -32,6 +32,8 @@ import pdf1 from '../../pdfs/p1b1.pdf';
 import anthology from '../../pdfs/anthology.pdf';
 import presentation from '../../pdfs/presentation.pdf';
 import project3PDF from '../../pdfs/project3PDF.pdf';
+import soccerPDF from '../../pdfs/soccerPDF.pdf';
+import sipNsculpt from '../../pdfs/sipNsculpt.pdf';
 import { motion as m } from 'framer-motion';
 import './Projects.css';
 
@@ -426,17 +428,24 @@ export const Projects = (props) => {
   const project9 = (
     <div className='project'>
       <h1>Uconn Nutmeg Publishing</h1>
-      <Row xs={1} md={3} className='g-4'>
+      <Row xs={1} md={2} className='g-4'>
         <Col>
           <div className='project__image'>
             <Image
-              className='project__image__thumbnail'
+              className='project__image-typography'
               thumbnail
               src={soccer}
             ></Image>
           </div>
+          <div className='project__bottom project9'>
+            <div className='project__bottom__anchor'>
+              <a href={soccerPDF} target='_blank' rel='noopener noreferrer'>
+                View PDF
+              </a>
+            </div>
+          </div>
         </Col>
-        <Col>
+        {/* <Col>
           <div className='project__image'>
             <Image
               className='project__image__thumbnail'
@@ -444,14 +453,21 @@ export const Projects = (props) => {
               src={soccer2}
             ></Image>
           </div>
-        </Col>
+        </Col> */}
         <Col>
           <div className='project__image'>
             <Image
-              className='project__image__thumbnail'
+              className='project__image-typography'
               thumbnail
               src={nutmeg}
             ></Image>
+          </div>
+          <div className='project__bottom project9'>
+            <div className='project__bottom__anchor'>
+              <a href={sipNsculpt} target='_blank' rel='noopener noreferrer'>
+                View PDF
+              </a>
+            </div>
           </div>
         </Col>
       </Row>

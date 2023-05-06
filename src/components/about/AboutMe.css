@@ -17,8 +17,24 @@
 
 .about-me__info {
   font-size: 20px;
-  padding: 25px;
+  padding-top: 25px;
+  padding-bottom: 25px;
   border-radius: 20px;
   background-color: #517089;
   color: #051d52;
+}
+
+.about-me__info__text {
+  padding-left: 25px;
+  padding-right: 25px;
+}
+
+@media only screen and (min-width: 450px) {
+  .about-me__row__image {
+    max-height: 600px;
+  }
+
+  .about-me__info {
+    padding: 25px;
+  }
 }
