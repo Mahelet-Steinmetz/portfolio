@@ -22,7 +22,13 @@
   margin-bottom: 20px;
 }
 
+.project-cards .col {
+  display: flex;
+  justify-content: center;
+}
+
 .project-card {
+  max-width: 550px;
   border: 1px solid #051d52 !important;
 }
 
